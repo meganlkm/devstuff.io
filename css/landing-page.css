@@ -176,22 +176,12 @@ h6 {
 .takeupspace {
     height: 100%;
 }
-.vmiddle {
-    /*display: block;
-    z-index: 0;
-    position: relative;
-    top: 2em;
-    margin: 0;
-    font-size: .85em;
-    line-height: 1.764705882em;*/
-    vertical-align: middle;
-    border: solid;
-    /*vertical-align: baseline;
-    opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;*/
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 /*.benefit-ball {
@@ -259,7 +249,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 
