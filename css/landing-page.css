@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body,
 html {
     width: 100%;
@@ -21,28 +15,22 @@ h6 {
     font-weight: 700;
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 65px;
     padding-bottom: 50px;
+    height: 100%;
     text-align: center;
-    /*color: #f8f8f8;*/
     color: #0099CC;
-    background: url(../img/stickies.png) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
 }
 
-/*(0,0,0,0.6)*/
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
@@ -90,179 +78,72 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+footer.navbar-inverse {
+    padding: 10px 0;
+    height: 50px;
 }
 
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-.benefits {
-  margin-bottom: 3em;
-}
-
-.benefit {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.benefit .benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-}
-
-.benefit .benefit-ball .glyphicon {
-  font-size: 3em;
-  position: relative;
-  top: -3px;
-  right: 1px;
-  /*vertical-align: middle;*/
-}
-
-.benefit h3 {
-  font-size: 1.5em;
-}
-
-.mycol {
-    margin-bottom: -99999px;
-    padding-bottom: -99999px;
-    background-color: #ffc;
-}
-
-.mycolwrap {
-    overflow: hidden;
-}
-
-.takeupspace {
-    height: 100%;
-}
-.vmiddle {
-    /*display: block;
-    z-index: 0;
-    position: relative;
-    top: 2em;
-    margin: 0;
-    font-size: .85em;
-    line-height: 1.764705882em;*/
-    vertical-align: middle;
-    border: solid;
-    /*vertical-align: baseline;
-    opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;*/
-}
-
-/*.benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-  margin: 1em 0;
-  text-align: center;
-  border: 1px solid #000;
-}*/
-
-/* benefit ball */
-/*.benefit {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.benefit .benefit-ball {
-  background: #f0f0f0;
-  border-radius: 50%;
-  color: #333;
-  display: inline-block;
-  line-height: 1em;
-  padding: 3em;
-}
-
-.benefit .benefit-ball .glyphicon {
-  font-size: 3em;
-  position: relative;
-  top: -3px;
-  right: 1px;
-}
-
-.benefit h3 {
-  font-size: 1.5em;
-}*/
-/* benefit ball */
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #f8f8f8;
+}
+
+.navbar {
+    min-height: 65px;
+}
+
+.navbar-inverse {
+    height: 65px;
+    border: 0;
+}
+
+.navbar-brand {
+    height: 55px;
+    z-index: -20;
+    margin-top: 5px;
+    padding: 0;
+    padding-top: 1px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 5px;
+}
+
+.navbar>.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.error-container {
+    padding-top: 65px;
+    padding-bottom: 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.error-container>.container {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.error-container>.container>.row {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.error-container>.container>.row>.jumbotron {
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #fff;
 }
